@@ -45,7 +45,7 @@
 //}
 //____________________________________________________
 
-var plant = prompt("think about a good DEAL");
+var plant = prompt("Think about a good deal", "press okay and get your offer :) ");;
 
 function plantfunc() {
   for (var i = 0; i<plant ; i++) {
