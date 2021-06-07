@@ -26,7 +26,7 @@
 ///
 //while (plant != "Jade Plant" && plant != "Aloe Vera" && plant != "Passion Flower") {
 
- /// plant = prompt("please enter on of : Jade Plant, Aloe Vera, Passion Flower");
+/// plant = prompt("please enter on of : Jade Plant, Aloe Vera, Passion Flower");
 //}
 //document.write("<img src='https://www.mssdefence.com/wp-content/uploads/2016/11/Discount-Action-Mss-Defence.png'/>")
 //____________________________________________________
@@ -34,31 +34,38 @@
 //var plant = prompt("whats your fav plant, choose one and get a discount ? : Jade Plant, Aloe Vera, Passion Flower ");
 
 //for (var i=0;i<5;){
-  //document.write("<img //src='https://www.mssdefence.com/wp-content/uploads/2016/11/Discount-Action-Mss-Defence.png'/>")
+//document.write("<img //src='https://www.mssdefence.com/wp-content/uploads/2016/11/Discount-Action-Mss-Defence.png'/>")
 //}
 //x=5;
 //if (plant=="Jade Plant" || plant=="Aloe Vera" || plant=="Passion Flower"){
 //console.log(plant:);
 //} else {
 //  plant = prompt("please enter one of these options:Jade Plant, Aloe Vera, Passion Flower ");
- // console.log(plant:)
+// console.log(plant:)
 //}
+//____________________________________________________
+
 var plant = prompt("think about a good DEAL");
 
+function plantfunc() {
+  for (var i = 0; i<plant ; i++) {
+    document.write("<img src='https://www.mssdefence.com/wp-content/uploads/2016/11/Discount-Action-Mss-Defence.png'/>")
+  }
 
-for (var i=0;i<5;i++){
+
+  var plant = prompt("whats your fav plant, choose one and get a discounts ? : Jade Plant, Aloe Vera, Passion Flower ");
+
+  while (plant != "Jade Plant" && plant != "Aloe Vera" && plant != "Passion Flower") {
+    plant = prompt("please enter one of these options:Jade Plant, Aloe Vera, Passion Flower ");
+  }
   document.write("<img src='https://www.mssdefence.com/wp-content/uploads/2016/11/Discount-Action-Mss-Defence.png'/>")
 }
+plantfunc()
 
 
-var plant = prompt("whats your fav plant, choose one and get a discounts ? : Jade Plant, Aloe Vera, Passion Flower ");
-
-while (plant != "Jade Plant" && plant !="Aloe Vera" && plant !="Passion Flower"){
-  plant = prompt("please enter one of these options:Jade Plant, Aloe Vera, Passion Flower ");
-}
-document.write("<img src='https://www.mssdefence.com/wp-content/uploads/2016/11/Discount-Action-Mss-Defence.png'/>")
- 
 
 
-  
+
+
+
 
