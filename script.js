@@ -45,10 +45,10 @@
 //}
 //____________________________________________________
 
-var plant = prompt("Think about a good deal", "press okay and get your offer :) ");;
+var plant = prompt("please enter on of : Jade Plant, Aloe Vera, Passion Flower", "PRESS OK AND GET YOUR OFFER :)");
 
 function plantfunc() {
-  for (var i = 0; i<plant ; i++) {
+  for (var i = 0; i<5 ; i++) {
     document.write("<img src='https://www.mssdefence.com/wp-content/uploads/2016/11/Discount-Action-Mss-Defence.png'/>")
   }
 
